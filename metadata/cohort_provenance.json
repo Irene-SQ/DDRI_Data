@@ -1,0 +1,30 @@
+{
+  "dataset": "ShapeNetV2",
+  "category_id": "02691156",
+  "all_ids_in_test_split": true,
+  "training_overlap": 0,
+  "sources": {
+    "145": {
+      "path": "First_review_pth_TO_ply/BC_145_targets_20261026/inventory/target_ids_145.json",
+      "sha256": "fde2f6975a8daaed6df145f0b2500803704d84c71fa8b38501c9374e5d273e02"
+    },
+    "22": {
+      "path": "First_review_pth_TO_ply/Re2-1/inventory/plane_ids_22.json",
+      "sha256": "2d26d0223da0852b599253684dc11d6a6114fa2e3913cc5481a897d8584a083f"
+    },
+    "24": {
+      "path": "First_review_pth_TO_ply/Re2-1/inventory/plane_ids_24.json",
+      "sha256": "2fa74243f6b2b24f9245631a77d8321d0210a579c39a5b646507fb4edf387a1f"
+    },
+    "6": {
+      "path": "DeepSDFData/output_pth_TO_ply/*20theta_{notphase2,notDoG2,notmask2,notpre2}_ablation/evaluate_result_only3/",
+      "derivation": "Sorted unique per-target metric filenames, excluding summary_average.txt; all four sets agree."
+    }
+  },
+  "relationships": [
+    "targets_6 is a subset of targets_22",
+    "targets_22 is a subset of targets_24",
+    "targets_24 is a subset of targets_145",
+    "targets_145 is a subset of rendered_targets_456"
+  ]
+}

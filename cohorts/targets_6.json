@@ -1,0 +1,13 @@
+{
+  "cohort": "targets_6",
+  "n_targets": 6,
+  "description": "Shared target IDs for the loss-removal and no-SDF-prior ablation runs.",
+  "target_pids": [
+    "d34eba7c2ce4db53adecb6fc00604132",
+    "d405b9e5f942fed5efe5d5ae25ee424e",
+    "d629589ee52d48ee4d210d9468aedaf2",
+    "d708c311bcd60e61c9ac656f0c2edc4b",
+    "d7287ce98d521db5ca8607f540cc62ba",
+    "d8d9de967255b4c562b600da24e0965"
+  ]
+}

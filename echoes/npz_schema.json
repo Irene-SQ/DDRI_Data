@@ -1,0 +1,195 @@
+{
+  "baseline_names": {
+    "shape": [
+      15
+    ],
+    "dtype": "<U11"
+  },
+  "sample_index": {
+    "shape": [
+      15,
+      1024
+    ],
+    "dtype": "int32"
+  },
+  "elapsed_time": {
+    "shape": [
+      15,
+      1024
+    ],
+    "dtype": "float64"
+  },
+  "target_global": {
+    "shape": [
+      15,
+      1024,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "tx_global": {
+    "shape": [
+      15,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "rx_global": {
+    "shape": [
+      15,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "rotation_model_to_world": {
+    "shape": [
+      15,
+      3,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "tx_target_frame": {
+    "shape": [
+      15,
+      1024,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "rx_target_frame": {
+    "shape": [
+      15,
+      1024,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "beta_deg": {
+    "shape": [
+      15,
+      1024
+    ],
+    "dtype": "float64"
+  },
+  "baseline_frame_to_world": {
+    "shape": [
+      15,
+      3,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "target_baseline_frame": {
+    "shape": [
+      15,
+      1024,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "tx_baseline_frame": {
+    "shape": [
+      15,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "rx_baseline_frame": {
+    "shape": [
+      15,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "incident_polarisations": {
+    "shape": [
+      15,
+      1024,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "receiver_polarisations": {
+    "shape": [
+      15,
+      1024,
+      3
+    ],
+    "dtype": "float64"
+  },
+  "echo_native_absolute": {
+    "shape": [
+      15,
+      1024
+    ],
+    "dtype": "complex128"
+  },
+  "echo_exp_minus_jwt_absolute": {
+    "shape": [
+      15,
+      1024
+    ],
+    "dtype": "complex128"
+  },
+  "echo_native_common_reference": {
+    "shape": [
+      15,
+      1024
+    ],
+    "dtype": "complex128"
+  },
+  "echo_exp_minus_jwt_common_reference": {
+    "shape": [
+      15,
+      1024
+    ],
+    "dtype": "complex128"
+  },
+  "frequency_hz": {
+    "shape": [],
+    "dtype": "float64"
+  },
+  "speed_of_light": {
+    "shape": [],
+    "dtype": "float64"
+  },
+  "common_reference_constant": {
+    "shape": [],
+    "dtype": "complex128"
+  },
+  "method_names": {
+    "shape": [
+      4
+    ],
+    "dtype": "<U32"
+  },
+  "model_path": {
+    "shape": [],
+    "dtype": "<U27"
+  },
+  "model_sha256": {
+    "shape": [],
+    "dtype": "<U64"
+  },
+  "method_echo_native_common_reference": {
+    "shape": [
+      15,
+      4,
+      1024
+    ],
+    "dtype": "complex128"
+  },
+  "method_echo_exp_minus_jwt_common_reference": {
+    "shape": [
+      15,
+      4,
+      1024
+    ],
+    "dtype": "complex128"
+  },
+  "fk_mask_model": {
+    "shape": [],
+    "dtype": "<U21"
+  }
+}

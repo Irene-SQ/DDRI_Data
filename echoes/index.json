@@ -1,0 +1,75 @@
+{
+  "targets": [
+    {
+      "target": "plane3clean",
+      "baselines": 15,
+      "samples_per_baseline": 1024,
+      "methods": [
+        "FEKO MLFMM",
+        "FK (fixed T-R orthographic mask)",
+        "Python PO",
+        "FEKO RL-GO + edge diffraction"
+      ],
+      "frequency_hz": 3000000000.0,
+      "wavelength_m": 0.09993081933333334,
+      "data": "plane3clean/data/four_methods_15_baselines.npz",
+      "fullwave_data": "plane3clean/data/ddri_15_baselines.npz",
+      "geometry": "plane3clean/mesh/plane3clean_source.obj",
+      "source_manifest_sha256": "293c8f70304cacb4c2584e549d30082fdebe5b4ca0394de37206f35154498fde"
+    },
+    {
+      "target": "plane4clean",
+      "baselines": 15,
+      "samples_per_baseline": 1024,
+      "methods": [
+        "FEKO MLFMM",
+        "FK (fixed T-R orthographic mask)",
+        "Python PO",
+        "FEKO RL-GO + edge diffraction"
+      ],
+      "frequency_hz": 3000000000.0,
+      "wavelength_m": 0.09993081933333334,
+      "data": "plane4clean/data/four_methods_15_baselines.npz",
+      "fullwave_data": "plane4clean/data/ddri_15_baselines.npz",
+      "geometry": "plane4clean/mesh/plane4clean_source.obj",
+      "source_manifest_sha256": "c8a2db6b4de89483622b3704dec09dd2d50c42e0c5f001a5af4152a34ccefda1"
+    },
+    {
+      "target": "plane5clean",
+      "baselines": 15,
+      "samples_per_baseline": 1024,
+      "methods": [
+        "FEKO MLFMM",
+        "FK (fixed T-R orthographic mask)",
+        "Python PO",
+        "FEKO RL-GO + edge diffraction"
+      ],
+      "frequency_hz": 3000000000.0,
+      "wavelength_m": 0.09993081933333334,
+      "data": "plane5clean/data/four_methods_15_baselines.npz",
+      "fullwave_data": "plane5clean/data/ddri_15_baselines.npz",
+      "geometry": "plane5clean/mesh/plane5clean_source.obj",
+      "source_manifest_sha256": "8d0350dd51f2173e5804d93003e547b47d008449a35877667d57d52f2ce38c5a"
+    },
+    {
+      "target": "plane9clean",
+      "baselines": 15,
+      "samples_per_baseline": 1024,
+      "methods": [
+        "FEKO MLFMM",
+        "FK (fixed T-R orthographic mask)",
+        "Python PO",
+        "FEKO RL-GO + edge diffraction"
+      ],
+      "frequency_hz": 3000000000.0,
+      "wavelength_m": 0.09993081933333334,
+      "data": "plane9clean/data/four_methods_15_baselines.npz",
+      "fullwave_data": "plane9clean/data/ddri_15_baselines.npz",
+      "geometry": "plane9clean/mesh/plane9clean_source.obj",
+      "source_manifest_sha256": "7546e43caaf31434c2d9601a941be0b6266be0dfce792a0bc5e1bb749d51fb16"
+    }
+  ],
+  "n_targets": 4,
+  "n_baselines_per_target": 15,
+  "n_samples_per_baseline": 1024
+}
