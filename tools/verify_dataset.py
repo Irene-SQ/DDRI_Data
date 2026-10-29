@@ -23,6 +23,9 @@ def main():
         assert len(ids) == len(set(ids)) == obj['n_targets'] == n
         cohorts[n] = set(ids)
     assert cohorts[6] < cohorts[22] < cohorts[24] < cohorts[145] < cohorts[456]
+    training = json.loads((ROOT/'cohorts/train_ids.json').read_text())
+    assert len(training['target_pids']) == len(set(training['target_pids'])) == training['n_targets'] == 1780
+    assert not set(training['target_pids']) & cohorts[456]
     renders = json.loads((ROOT/'renders/index.json').read_text())
     assert len(renders['images']) == 456
     assert {r['target_id'] for r in renders['images']} == cohorts[456]
@@ -59,7 +62,7 @@ def main():
             assert hashlib.sha256(mesh.read_bytes()).hexdigest() == str(data['model_sha256'])
         with np.load(ROOT/'echoes'/target['fullwave_data'], allow_pickle=False) as full:
             np.testing.assert_array_equal(full['echo_native_common_reference'], native[:, 0])
-    print('PASS: file checksums, 456 images, five cohort lists, and four 15-baseline echo datasets.')
+    print('PASS: file checksums, 456 overlays, 1780 training IDs, five evaluation lists, and four 15-baseline echo datasets.')
 
 
 if __name__ == '__main__':

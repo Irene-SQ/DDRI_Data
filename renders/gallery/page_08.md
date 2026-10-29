@@ -1,4 +1,4 @@
-# Final reconstructions: page 8
+# Reconstruction overlays: page 8
 
 [Gallery index](../README.md)
 

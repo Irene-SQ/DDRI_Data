@@ -1,6 +1,6 @@
-# Final reconstruction renderings
+# Reconstruction and ground-truth overlays
 
-This collection contains **456 final DDRI reconstruction renderings obtained with a fixed 1-m lateral localization error**. The IDs match the complete held-out ShapeNet airplane test split. Each image retains its original pixels.
+This collection contains **456 DDRI reconstruction/ground-truth overlay images obtained with a fixed 1-m lateral localization error**. **Red shows the predicted surface; green shows the ground-truth surface points.** The IDs match the complete held-out ShapeNet airplane test split. Each image retains its original pixels.
 
 ## Observation and inversion settings
 
@@ -25,7 +25,9 @@ The saved simulated echoes use the nominal trajectory. The inversion trajectory 
 
 ## Files and experiment identity
 
-`images/<target_id>.png` contains the final rendering for that target. `index.json` records the observation settings, image paths, cohort membership, and SHA-256 checksums. The collection includes all 456 available final renderings, including imperfect reconstructions. Intermediate-iteration renderings are omitted.
+`images/<target_id>.png` contains the prediction/ground-truth overlay for that target, copied from the original `<target_id>_overlap.png` evaluation output. `index.json` records the observation settings, image paths, cohort membership, and SHA-256 checksums. The collection includes all 456 available overlays, including imperfect reconstructions.
+
+For these visual comparisons, the prediction is isotropically scaled to match the longest ground-truth bounding-box extent, and the prediction and reference are centered independently. Thus, the overlays compare aligned shape geometry; the original 1-m sensing-geometry error is an inversion condition, not an image translation.
 
 Settings and image checksums are in [index.json](index.json). This rendering campaign has its own observation configuration; cohort membership links the same target identities across experiments.
 

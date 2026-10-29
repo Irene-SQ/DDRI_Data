@@ -19,6 +19,10 @@
     "6": {
       "path": "DeepSDFData/output_pth_TO_ply/*20theta_{notphase2,notDoG2,notmask2,notpre2}_ablation/evaluate_result_only3/",
       "derivation": "Sorted unique per-target metric filenames, excluding summary_average.txt; all four sets agree."
+    },
+    "training": {
+      "path": "DeepSDF-main/examples/splits/sv2_planes_train.json",
+      "sha256": "5aae73b8aceccc0615d2de14be7d98fa1a6fc63688fb82040715bbe5ad501899"
     }
   },
   "relationships": [
