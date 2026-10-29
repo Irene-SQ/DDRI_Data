@@ -12,48 +12,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2950,
-      "sha256": "e52042ee0d6f19b76fe09f1c8c8513493145ecf24f3ca54c5ae3edd834a90e18"
-    },
-    {
-      "path": "SDF_DATA/02691156_dataset/README.md",
-      "bytes": 396,
-      "sha256": "1a6d7d5ceecb7cb5e0f9addfdcefbf618767a7b1d36e2456b6d7a39f66fbe83e"
-    },
-    {
-      "path": "SDF_DATA/GT_Renderings_Open3D/README.md",
-      "bytes": 272,
-      "sha256": "1bf852ad90d7781b4a5ebc02bbb5603d16a261b3a32c00528127cde619b40290"
-    },
-    {
-      "path": "SDF_DATA/GT_Renders/README.md",
-      "bytes": 382,
-      "sha256": "0843c3bbe8278f7e3859ca9d24506efdb124c7e885380ce9e87f69adb67cc563"
-    },
-    {
-      "path": "SDF_DATA/README.md",
-      "bytes": 3395,
-      "sha256": "08c7d3e9486f1de96c281a36d676a256e23f3391fc6becaca6f1e5ef710e0a99"
-    },
-    {
-      "path": "SDF_DATA/SDFdata_test/README.md",
-      "bytes": 386,
-      "sha256": "c106499f05b205962ce9c94aaf04eba1159c127252819f40526bfdc1ccbe6408"
-    },
-    {
-      "path": "SDF_DATA/SDFdata_train/README.md",
-      "bytes": 389,
-      "sha256": "a12db122ec1db4238f79f07f4f01e7e56bdf16fe4b2e95a69af018bb70d7b5de"
-    },
-    {
-      "path": "SDF_DATA/metadata/dataset_summary.json",
-      "bytes": 557,
-      "sha256": "b0ee7215ac37d35b9dba23ffbc544ce6d430c782c98b8f7543c12154df400224"
-    },
-    {
-      "path": "SDF_DATA/metadata/files.csv",
-      "bytes": 5854843,
-      "sha256": "59802e9b88b7c8bbf9eacd0c2ce7aded59238b2b216d3aa5e43d316680a22f3f"
+      "bytes": 2502,
+      "sha256": "0ae6217ac3ac622f5e3d68fde0544423d57bdb737b5b04d272e7a8cafde4531f"
     },
     {
       "path": "cohorts/README.md",
@@ -2511,11 +2471,6 @@
       "sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac"
     },
     {
-      "path": "tools/publish_sdf_data.py",
-      "bytes": 9347,
-      "sha256": "fdc259bdd8b997418c2bfdb79bd0f43e0f9c19ba2c17de61a017e8480f737789"
-    },
-    {
       "path": "tools/read_echo.py",
       "bytes": 2083,
       "sha256": "b09cdca0d72b31cd6cce0bd64dca8ce04ef864ad417412d79713cb9fc649d020"
@@ -2526,5 +2481,5 @@
       "sha256": "8dc1e7933a5408e9d8b4dab9d7423acfbedefb70fad2ed0bd4c729db2f0c58b8"
     }
   ],
-  "total_bytes": 373560005
+  "total_bytes": 367689590
 }
